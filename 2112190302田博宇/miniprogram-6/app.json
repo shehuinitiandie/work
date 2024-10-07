@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/play/play"
+  ],
+  "window": {
+    "enablePullDownRefresh":true,
+    "backgroundTextStyle" :"light",
+    "navigationBarBackgroundColor" :"#ff0000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "网易鱼"
+  },
+  "tabBar": {
+    "color": "#ff0000",
+    "selectclor" : "fffff00",
+    "list":[{
+    "pagePath": "pages/index/index",
+    "text": "首页",
+    "iconPath": "/pages/sb/11.png"
+    },{
+    "pagePath": "pages/logs/logs",
+    "iconPath": "/pages/sb/11.png",
+    "text": "日志"
+  },{
+    "pagePath": "pages/test/test",
+    "iconPath": "/pages/sb/11.png",
+    "text": "测试"
+  }]
+},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
+

@@ -1,0 +1,70 @@
+/* pages/play/play.wxss */
+#bg{
+  position: fixed;
+  width: 100%;
+  height: 50%;
+  background: black;
+}
+.bg{
+  position: fixed;
+  width:100%;
+  height: 50%;
+  opacity:0.5;
+}
+.name{
+  text-align: center;
+  font-size: 65rpx;
+  color: white;
+  position: relative;
+  width: 100%;
+  height: 100rpx;
+  line-height: 200rpx;
+}
+.main{
+  width:100%;
+  height:850rpx;
+  background:pink;
+  position:relative;
+}
+.main .item{
+  width:80%;
+  height:100%;
+  background:skyblue;
+}
+.musicPic{
+  width:450rpx;
+  height:450rpx;
+  border-radius: 50%;
+  border: 70rpx solid #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  animation: playimg 20s linear infinite;
+  animation-play-state:paused;
+}
+@keyframes playimg{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.btnBox{
+  width:100%;
+  height:200rpx;
+  background: yellow;
+  position: fixed;
+  bottom: 0;
+  padding:40rpx 20rpx;
+}
+.btnBox image{
+  display:block;
+  width:130rpx;
+  height:130rpx;
+  float:left;
+  margin: 0 50rpx;
+}

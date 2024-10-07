@@ -1,0 +1,19 @@
+<swiper indicator-dots="true" autoplay="true" interval="3000">
+    <block wx:for="{{background}}" wx:key="*this">
+    <swiper-item>
+     <!--<view class="swiper-item {{item}}"<view>-->
+     <image src="{{item}}"></image>
+     </swiper-item>
+     </block>
+</swiper>
+<block wx:for="{{musiclist}}" wx:key="*this"><view class="list_wrap">
+<view class="list_l">
+<image src="{{item.src}}"></image>
+</view>
+<view class="list_c">
+<view class="musicName">"{{item.musicName}}</view>
+<view class="name">"{{item.name}}</view>
+</view>
+<view data-id="{{item.id}}" bindtap="play" class="list_r">
+<image src="https://s1.aigei.com/src/img/png/7d/7d3fe8ed87374c2cbb2e503cbcd5c3fa.png?imageMogr2/auto-orient/thumbnail/!282x282r/gravity/Center/crop/282x282/quality/85/%7CimageView2/2/w/282&e=1735488000&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:u2Jc4ah-WtVvtv0PYXI9k-S-G1U="></image>
+</view></view></block>
