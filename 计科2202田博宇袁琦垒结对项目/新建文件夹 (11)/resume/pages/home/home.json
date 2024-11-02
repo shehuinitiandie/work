@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "base-info": "../components/base-info/base-info",
+        "base-work": "../components/base-work/base-work",
+        "base-skills": "../components/base-skills/base-skills"
+    }
+}
